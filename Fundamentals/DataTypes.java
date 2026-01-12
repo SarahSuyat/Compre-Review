@@ -6,7 +6,7 @@ public class DataTypes{
         int age = 21;
         char character = 'A';
         boolean isPassed = true;
-        double grade = 1.25;
+        double grade = 3.00;
         float reward = 10.000f;
 
         System.out.println ("name:" + name);
@@ -66,6 +66,17 @@ public class DataTypes{
         }
         else {
             System.out.println("Bata");
+        }
+
+        //if-else multiple condition
+        if (grade <= 1.25) {
+            System.out.println("Excellent");
+        } 
+        else if (grade <= 3.00) {
+            System.out.println("Passed");
+        } 
+        else {
+            System.out.println("Failed");
         }
 
 
